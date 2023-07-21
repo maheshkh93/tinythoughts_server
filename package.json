@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
